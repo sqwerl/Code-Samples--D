@@ -1,4 +1,4 @@
 This is a collection of code samples written in a variety of different languages.
 Asteroids is a simple asteroids game written in objective c for os-x and emphasizes the importance of memory allocation.
 Trends is a program written in python that graphically represents data that is pulled from a collection of tweets.
-Ants is a tower-defense game written in python in which you deploy ants to protect the queen from an army of attacking bees.
+Ants is a tower-defense game written in python in which you deploy ants to protect your queen from an army of attacking bees.
