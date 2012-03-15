@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8414EB1F14DD1BE700534717 /* ASAsteroid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414EB1E14DD1BE700534717 /* ASAsteroid.m */; };
+		8484C17214F88C3000A68764 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2B95C14F87DE6009496CE /* SenTestingKit.framework */; };
+		8484C17314F88C3000A68764 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2B95E14F87DE6009496CE /* Cocoa.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		BFEAB5891070253A00F36357 /* ASView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAB5881070253A00F36357 /* ASView.m */; };
+		BFEAB58C1070256500F36357 /* ASDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAB58B1070256500F36357 /* ASDrawable.m */; };
+		BFEAB5A21070294E00F36357 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEAB5A11070294E00F36357 /* ship.png */; };
+		BFEAB5D710702A2000F36357 /* ASKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAB5D610702A2000F36357 /* ASKeyboard.m */; };
+		BFEAB64310702DE100F36357 /* ASShip.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAB64210702DE100F36357 /* ASShip.m */; };
+		BFEAB83510705D2D00F36357 /* ASBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAB83410705D2D00F36357 /* ASBullet.m */; };
+		BFEAB92F1070649400F36357 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEAB92E1070649400F36357 /* bullet.png */; };
+		BFEABB281070711900F36357 /* asteroidMedium.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEABB271070711900F36357 /* asteroidMedium.png */; };
+		BFEABB2B1070716D00F36357 /* asteroidLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEABB2A1070716D00F36357 /* asteroidLarge.png */; };
+		BFEABB2D107071AE00F36357 /* asteroidSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEABB2C107071AE00F36357 /* asteroidSmall.png */; };
+		BFEABE031071614B00F36357 /* shield.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEABE021071614B00F36357 /* shield.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Asteroids_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asteroids_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8414EB1D14DD1BE700534717 /* ASAsteroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAsteroid.h; sourceTree = "<group>"; };
+		8414EB1E14DD1BE700534717 /* ASAsteroid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAsteroid.m; sourceTree = "<group>"; };
+		8484C17114F88C2F00A68764 /* Unit Test Bundle.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Test Bundle.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B2B95C14F87DE6009496CE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84B2B95E14F87DE6009496CE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		8D1107310486CEB800E47090 /* Asteroids-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Asteroids-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEAB5871070253A00F36357 /* ASView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASView.h; sourceTree = "<group>"; };
+		BFEAB5881070253A00F36357 /* ASView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASView.m; sourceTree = "<group>"; };
+		BFEAB58A1070256500F36357 /* ASDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDrawable.h; sourceTree = "<group>"; };
+		BFEAB58B1070256500F36357 /* ASDrawable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDrawable.m; sourceTree = "<group>"; };
+		BFEAB5A11070294E00F36357 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
+		BFEAB5D510702A2000F36357 /* ASKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASKeyboard.h; sourceTree = "<group>"; };
+		BFEAB5D610702A2000F36357 /* ASKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASKeyboard.m; sourceTree = "<group>"; };
+		BFEAB64110702DE100F36357 /* ASShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASShip.h; sourceTree = "<group>"; };
+		BFEAB64210702DE100F36357 /* ASShip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASShip.m; sourceTree = "<group>"; };
+		BFEAB83310705D2D00F36357 /* ASBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBullet.h; sourceTree = "<group>"; };
+		BFEAB83410705D2D00F36357 /* ASBullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBullet.m; sourceTree = "<group>"; };
+		BFEAB92E1070649400F36357 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		BFEABB271070711900F36357 /* asteroidMedium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroidMedium.png; sourceTree = "<group>"; };
+		BFEABB2A1070716D00F36357 /* asteroidLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroidLarge.png; sourceTree = "<group>"; };
+		BFEABB2C107071AE00F36357 /* asteroidSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroidSmall.png; sourceTree = "<group>"; };
+		BFEABE021071614B00F36357 /* shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shield.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8484C16D14F88C2F00A68764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8484C17214F88C3000A68764 /* SenTestingKit.framework in Frameworks */,
+				8484C17314F88C3000A68764 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFEAB83210705CEE00F36357 /* Special Drawables */,
+				BFEAB5871070253A00F36357 /* ASView.h */,
+				BFEAB5881070253A00F36357 /* ASView.m */,
+				BFEAB58A1070256500F36357 /* ASDrawable.h */,
+				BFEAB58B1070256500F36357 /* ASDrawable.m */,
+				BFEAB5D510702A2000F36357 /* ASKeyboard.h */,
+				BFEAB5D610702A2000F36357 /* ASKeyboard.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Asteroids.app */,
+				8484C17114F88C2F00A68764 /* Unit Test Bundle.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Asteroids;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Asteroids_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFEABE021071614B00F36357 /* shield.png */,
+				BFEABB2A1070716D00F36357 /* asteroidLarge.png */,
+				BFEABB271070711900F36357 /* asteroidMedium.png */,
+				BFEABB2C107071AE00F36357 /* asteroidSmall.png */,
+				BFEAB92E1070649400F36357 /* bullet.png */,
+				BFEAB5A11070294E00F36357 /* ship.png */,
+				8D1107310486CEB800E47090 /* Asteroids-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				84B2B95C14F87DE6009496CE /* SenTestingKit.framework */,
+				84B2B95E14F87DE6009496CE /* Cocoa.framework */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFEAB83210705CEE00F36357 /* Special Drawables */ = {
+			isa = PBXGroup;
+			children = (
+				BFEAB64110702DE100F36357 /* ASShip.h */,
+				BFEAB64210702DE100F36357 /* ASShip.m */,
+				BFEAB83310705D2D00F36357 /* ASBullet.h */,
+				BFEAB83410705D2D00F36357 /* ASBullet.m */,
+				8414EB1D14DD1BE700534717 /* ASAsteroid.h */,
+				8414EB1E14DD1BE700534717 /* ASAsteroid.m */,
+			);
+			name = "Special Drawables";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8484C17014F88C2F00A68764 /* Unit Test Bundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8484C17E14F88C3000A68764 /* Build configuration list for PBXNativeTarget "Unit Test Bundle" */;
+			buildPhases = (
+				8484C16C14F88C2F00A68764 /* Sources */,
+				8484C16D14F88C2F00A68764 /* Frameworks */,
+				8484C16E14F88C2F00A68764 /* Resources */,
+				8484C16F14F88C2F00A68764 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unit Test Bundle";
+			productName = "Unit Test Bundle";
+			productReference = 8484C17114F88C2F00A68764 /* Unit Test Bundle.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D1107260486CEB800E47090 /* Asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Asteroids" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asteroids;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Asteroids;
+			productReference = 8D1107320486CEB800E47090 /* Asteroids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Asteroids" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Asteroids */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Asteroids */,
+				8484C17014F88C2F00A68764 /* Unit Test Bundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8484C16E14F88C2F00A68764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				BFEAB5A21070294E00F36357 /* ship.png in Resources */,
+				BFEAB92F1070649400F36357 /* bullet.png in Resources */,
+				BFEABB281070711900F36357 /* asteroidMedium.png in Resources */,
+				BFEABB2B1070716D00F36357 /* asteroidLarge.png in Resources */,
+				BFEABB2D107071AE00F36357 /* asteroidSmall.png in Resources */,
+				BFEABE031071614B00F36357 /* shield.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8484C16F14F88C2F00A68764 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8484C16C14F88C2F00A68764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				BFEAB5891070253A00F36357 /* ASView.m in Sources */,
+				BFEAB58C1070256500F36357 /* ASDrawable.m in Sources */,
+				BFEAB5D710702A2000F36357 /* ASKeyboard.m in Sources */,
+				BFEAB64310702DE100F36357 /* ASShip.m in Sources */,
+				BFEAB83510705D2D00F36357 /* ASBullet.m in Sources */,
+				8414EB1F14DD1BE700534717 /* ASAsteroid.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8484C17F14F88C3000A68764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unit Test Bundle/Unit Test Bundle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "Unit Test Bundle/Unit Test Bundle-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8484C18014F88C3000A68764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unit Test Bundle/Unit Test Bundle-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "Unit Test Bundle/Unit Test Bundle-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Asteroids_Prefix.pch;
+				INFOPLIST_FILE = "Asteroids-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Asteroids;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Asteroids_Prefix.pch;
+				INFOPLIST_FILE = "Asteroids-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Asteroids;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8484C17E14F88C3000A68764 /* Build configuration list for PBXNativeTarget "Unit Test Bundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8484C17F14F88C3000A68764 /* Debug */,
+				8484C18014F88C3000A68764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

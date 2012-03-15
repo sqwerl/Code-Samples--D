@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.8.1: http://docutils.sourceforge.net/" />
+<title>61A Homework 8</title>
+<link rel="stylesheet" href="css/lectures.css" type="text/css" />
+
+        <script src="js/jsMath/easy/load.js"></script>
+        <link href="css/prettify.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="css/prettify.js"></script></head>
+<body onload="prettyPrint();">
+<div class="document" id="a-homework-8">
+<h1 class="title">61A Homework 8</h1>
+<p><strong>Due by 4pm on Wednesday, 14 March</strong></p>
+<p>You can grab a template for this homework either by downloading the file from
+the calendar or by running the following command in terminal on one of the
+school computers (the dot is significant: it denotes the current directory)</p>
+<pre class="literal-block">
+cp ~cs61a/lib/hw/hw8.py .
+</pre>
+<p><strong>Readings.</strong> Chapter 3.3</p>
+<p><strong>Q1.</strong>
+Write a version of <tt class="docutils literal">tree_find</tt> from lecture (for finding keys among the
+labels of a binary search tree) that is purely iterative and
+does not use recursion.</p>
+<p><strong>Q2.</strong>
+Define a function <tt class="docutils literal">depth</tt> that, given  a Tree, <tt class="docutils literal">T</tt>, and a value, <tt class="docutils literal">x</tt>,
+finds the <em>depth</em> at which <tt class="docutils literal">x</tt> appears as a label in the tree.
+Depth here refers to distance from the root, <tt class="docutils literal">T</tt>.  The node <tt class="docutils literal">T</tt> itself is
+at depth 0; its children are at depth 1, etc.  Assume that <tt class="docutils literal">x</tt> appears at
+most once in the tree.  Return <tt class="docutils literal">None</tt> if it does not appear.</p>
+<p><strong>Q3.</strong>
+Generalize the binary search trees from lecture to search trees
+with more than two children.  We can
+define a <em>general search tree</em> as one whose labels are <em>lists</em> of keys
+such that</p>
+<blockquote>
+<ol class="loweralpha simple">
+<li>A node whose label is None represents an empty collection.</li>
+<li>Otherwise, there is at least one key in a node label and
+the keys are sorted in ascending order.</li>
+<li>A non-empty node with <em>N</em> keys has <em>N+1</em> children, which are
+also general search trees.</li>
+<li>If x is key #k in a node's label, then all keys in child #k are
+less than x and all those in child #k+1 are greater than x.</li>
+</ol>
+</blockquote>
+<p>Fill in the definition of <tt class="docutils literal">gen_tree_find</tt> in the skeleton to search for
+a key in such a general search tree.</p>
+<p><strong>Q4.</strong>
+Write a higher-order function that generalizes memoization:</p>
+<pre class="literal-block">
+def memoize(func):
+    &quot;&quot;&quot;Returns a function that takes the same arguments as 'func'
+    and returns the same value, but with memoization.  That is, if
+    f is the function returned by memoize(func), then f(v) returns
+    func(v), but if f is called twice with the same arguments, v, it
+    does not call func(v), but returns the previously returned value.
+    We assume that 'func' is a pure function whose value depends only
+    on the values of its arguments, and whose side-effects are irrelevant,
+    and that the values of its argument, v, are of a type
+    suitable for use as keys
+    in a Python dictionary.&quot;&quot;&quot;
+</pre>
+<p>So, for example, if we define:</p>
+<pre class="literal-block">
+def fib(x):
+    print(x)
+    if x &lt;= 1:
+         return 1
+    else:
+         return fib(x-2) + fib(x-1)
+
+fib = memoize(fib)
+</pre>
+<p>and then call <tt class="docutils literal">fib(6)</tt>, we'd get the expected return value (13), but the
+printed values would be 0, 1, 2, 3, 4, 5, 6, instead of the sequence
+we would expect from the unmemoized <tt class="docutils literal">fib</tt>, which is 0, 1, 2, 0, 1, 3, 1, 2, 0, 1, etc.</p>
+<p>Your <tt class="docutils literal">memoize</tt> function should work with functions that take any
+number of parameters.  <em>Reminder:</em> In Python, the syntax:</p>
+<pre class="literal-block">
+def f(*a): ...
+</pre>
+<p>allows <tt class="docutils literal">f</tt> to take any number of parameters (0 or more),
+setting <tt class="docutils literal">a</tt> to a tuple containing them.  Likewise, if <tt class="docutils literal">g</tt> is a function
+taking two parameters, then:</p>
+<pre class="literal-block">
+&gt;&gt;&gt; g(1, 2)
+42
+&gt;&gt;&gt; v = (1, 2)
+&gt;&gt;&gt; g(*v)
+42
+</pre>
+<p><strong>Q5.</strong>
+Modify your solution to Q4 so that if the calculation of <tt class="docutils literal">func(v)</tt> for some
+value of <tt class="docutils literal">v</tt> causes a recursive call of <tt class="docutils literal">func(v)</tt> (that is, a call with the
+same arguments, indicating an infinite loop), then the memoized function raises a <tt class="docutils literal">RuntimeError</tt>
+exception.  Call the new version <tt class="docutils literal">checked_memoize</tt>.</p>
+<p><strong>Q6.</strong>
+Consider the following definition of <tt class="docutils literal">adjoin_set</tt>, adapted to the
+binary search trees in this problem set, and <tt class="docutils literal">adjoin_all</tt>:</p>
+<pre class="literal-block">
+empty_set = Tree(None)
+
+def adjoin_set(S, v):
+    &quot;&quot;&quot;Assuming S is a binary search tree representing a set (no
+    duplicate values), the binary search tree representing the set
+    S U {v}.&quot;&quot;&quot;
+    if S.label is None:
+        return Tree(v, None, None)
+    elif v &lt; S.label:
+        return Tree(S.label, adjoin_set(S[0], v), S[1])
+    elif v == S.label:
+        return S
+    else:
+        return Tree(S.label, S[0], adjoin_set(S[1], v))
+
+def adjoin_all(S, L):
+    &quot;&quot;&quot;The result of adding all the elements of L to set S, in order.&quot;&quot;&quot;
+    for v in L:
+        S = adjoin_set(v)
+    return S
+</pre>
+<p>Define two functions: <tt class="docutils literal">bad(N)</tt> and <tt class="docutils literal">good(N)</tt> that each returns a sequence of
+<tt class="docutils literal">N</tt> non-null integer values such that <tt class="docutils literal">tree_find(adjoin_all(empty_set, <span class="pre">bad(N)),</span> x)</tt> takes as long as possible for any given value <tt class="docutils literal">N</tt> and the worst
+<tt class="docutils literal">x</tt>, and <tt class="docutils literal">tree_find(adjoin_all(empty_set, <span class="pre">good(N)),</span> x)</tt> takes as little time as
+possible for any given value <tt class="docutils literal">N</tt> and the worst <tt class="docutils literal">x</tt>.</p>
+<p><strong>Q7.</strong> [Extra for experts]
+Write a function that returns the result of <em>removing</em> a value
+from a binary search tree, if it is present (maintaining the search-tree
+property, of course).  Returns the original tree if the value is not present.
+The time spent should be proportional to the depth of the tree.
+<em>Hint:</em> This is easy if the node whose label matches the value being
+deleted contains at most one non-empty child.  The tricky
+part is figuring out what to do when that node has two non-empty children.</p>
+<p><strong>Q8.</strong> [Extra for experts] Define a function <tt class="docutils literal">preorder(T)</tt> on Trees
+that returns an iterator  over the labels in T in preorder. That
+is, it lists a node's label first, then those of its children
+(recursively) in order.  (For this problem, there are no empty trees;
+None is just a possible label value):</p>
+<pre class="literal-block">
+&quot;&quot;&quot;
+&gt;&gt;&gt; T = Tree(1, Tree(2, Tree(3, 4, 5), 6), 7, 8)
+&gt;&gt;&gt; list(preorder(T))
+[1, 2, 3, 4, 5, 6, 7, 8]
+&quot;&quot;&quot;
+</pre>
+</div>
+</body>
+</html>

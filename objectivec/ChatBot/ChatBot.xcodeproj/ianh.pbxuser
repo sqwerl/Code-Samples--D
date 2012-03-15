@@ -1,0 +1,163 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BF771F430F2FDA070084FE39 /* ChatBot */;
+		activeTarget = 8D1107260486CEB800E47090 /* ChatBot */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* ChatBot */,
+		);
+		codeSenseManager = BF771F4A0F2FDA260084FE39 /* Code sense */;
+		executables = (
+			BF771F430F2FDA070084FE39 /* ChatBot */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 255403657;
+			PBXWorkspaceStateSaveDate = 255403657;
+		};
+		perUserProjectItems = {
+			BF771FD20F300D4D0084FE39 = BF771FD20F300D4D0084FE39 /* PBXTextBookmark */;
+			BF771FD30F300D4D0084FE39 = BF771FD30F300D4D0084FE39 /* PBXTextBookmark */;
+			BF7722C70F3926850084FE39 = BF7722C70F3926850084FE39 /* PBXTextBookmark */;
+			BF7722C80F3926850084FE39 = BF7722C80F3926850084FE39 /* PBXTextBookmark */;
+			BF7722D60F3926970084FE39 /* PBXTextBookmark */ = BF7722D60F3926970084FE39 /* PBXTextBookmark */;
+			BF7722D70F3926970084FE39 /* PBXTextBookmark */ = BF7722D70F3926970084FE39 /* PBXTextBookmark */;
+		};
+		sourceControlManager = BF771F490F2FDA260084FE39 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* ChatBot */ = {
+		activeExec = 0;
+		executables = (
+			BF771F430F2FDA070084FE39 /* ChatBot */,
+		);
+	};
+	BF771F430F2FDA070084FE39 /* ChatBot */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ChatBot;
+		sourceDirectories = (
+		);
+	};
+	BF771F490F2FDA260084FE39 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	BF771F4A0F2FDA260084FE39 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BF771F590F2FDACD0084FE39 /* CBChatController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {875, 506}}";
+			sepNavSelRange = "{437, 0}";
+			sepNavVisRange = "{0, 444}";
+			sepNavWindowFrame = "{{538, -19}, {934, 578}}";
+		};
+	};
+	BF771F5A0F2FDACD0084FE39 /* CBChatController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1144, 770}}";
+			sepNavSelRange = "{1406, 0}";
+			sepNavVisRange = "{0, 1415}";
+			sepNavWindowFrame = "{{477, 186}, {1203, 832}}";
+		};
+	};
+	BF771F5F0F2FDBD90084FE39 /* CBChatBot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {875, 506}}";
+			sepNavSelRange = "{380, 0}";
+			sepNavVisRange = "{0, 486}";
+			sepNavWindowFrame = "{{628, 135}, {934, 578}}";
+		};
+	};
+	BF771F600F2FDBD90084FE39 /* CBChatBot.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {935, 507}}";
+			sepNavSelRange = "{189, 0}";
+			sepNavVisRange = "{0, 658}";
+			sepNavWindowFrame = "{{817, -137}, {1203, 832}}";
+		};
+	};
+	BF771FD20F300D4D0084FE39 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF771F590F2FDACD0084FE39 /* CBChatController.h */;
+		name = "CBChatController.h: 20";
+		rLen = 0;
+		rLoc = 437;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	BF771FD30F300D4D0084FE39 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF771F5F0F2FDBD90084FE39 /* CBChatBot.h */;
+		name = "CBChatBot.h: 19";
+		rLen = 0;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 486;
+		vrLoc = 0;
+	};
+	BF7722C70F3926850084FE39 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF771F590F2FDACD0084FE39 /* CBChatController.h */;
+		name = "CBChatController.h: 20";
+		rLen = 0;
+		rLoc = 437;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	BF7722C80F3926850084FE39 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF771F5F0F2FDBD90084FE39 /* CBChatBot.h */;
+		name = "CBChatBot.h: 19";
+		rLen = 0;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 486;
+		vrLoc = 0;
+	};
+	BF7722D60F3926970084FE39 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF771F590F2FDACD0084FE39 /* CBChatController.h */;
+		name = "CBChatController.h: 20";
+		rLen = 0;
+		rLoc = 437;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	BF7722D70F3926970084FE39 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF771F5F0F2FDBD90084FE39 /* CBChatBot.h */;
+		name = "CBChatBot.h: 19";
+		rLen = 0;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 486;
+		vrLoc = 0;
+	};
+}

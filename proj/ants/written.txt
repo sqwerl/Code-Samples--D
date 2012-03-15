@@ -1,0 +1,4 @@
+1. The simulate method starts the game.
+2. The bees exit the hive after a default time indicated by AssaultPlan
+3. The configure method in ant colony sets up the places which are passed in to AntColony when the colony is created. To modify the code to produce more places you can change the layouts.
+4. The Insects armor attribute is used for determining whether the insect is still alive. When the armor reaches 0 the insect dies and is removed.

@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD2CA2413D29FEF003EB649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD2CA2313D29FEF003EB649 /* Foundation.framework */; };
+		0AD2CA2713D29FEF003EB649 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2CA2613D29FEF003EB649 /* main.m */; };
+		0AD2CA2B13D29FEF003EB649 /* FractionCalculator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0AD2CA2A13D29FEF003EB649 /* FractionCalculator.1 */; };
+		0AD2CA3513D2A004003EB649 /* FCConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2CA3213D2A004003EB649 /* FCConsole.m */; };
+		0AD2CA3613D2A004003EB649 /* FCStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2CA3413D2A004003EB649 /* FCStack.m */; };
+		0AD2CA3A13D2AAA4003EB649 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2CA3913D2AAA4003EB649 /* Fraction.m */; };
+		84B2B99514F88527009496CE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2B99414F88527009496CE /* SenTestingKit.framework */; };
+		84B2B99714F88527009496CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2B99614F88527009496CE /* Cocoa.framework */; };
+		84B2B9A114F88527009496CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B99F14F88527009496CE /* InfoPlist.strings */; };
+		84B2B9A414F88527009496CE /* FractionCalculatorLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B9A314F88527009496CE /* FractionCalculatorLogicTests.m */; };
+		84B2B9AF14F88533009496CE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2B99414F88527009496CE /* SenTestingKit.framework */; };
+		84B2B9B014F88533009496CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2B99614F88527009496CE /* Cocoa.framework */; };
+		84B2B9B614F88534009496CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B9B414F88534009496CE /* InfoPlist.strings */; };
+		84B2B9B914F88534009496CE /* FractionCalculatorApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B9B814F88534009496CE /* FractionCalculatorApplicationTests.m */; };
+		84B777C814D1F97C0004F492 /* FCStackCalculatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B777C714D1F97C0004F492 /* FCStackCalculatorController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B2B9BE14F885EB009496CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AD2CA1613D29FEF003EB649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD2CA1E13D29FEF003EB649;
+			remoteInfo = FractionCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AD2CA1D13D29FEF003EB649 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0AD2CA2B13D29FEF003EB649 /* FractionCalculator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AD2CA1F13D29FEF003EB649 /* FractionCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FractionCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD2CA2313D29FEF003EB649 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AD2CA2613D29FEF003EB649 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AD2CA2913D29FEF003EB649 /* FractionCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FractionCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		0AD2CA2A13D29FEF003EB649 /* FractionCalculator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FractionCalculator.1; sourceTree = "<group>"; };
+		0AD2CA3113D2A004003EB649 /* FCConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCConsole.h; sourceTree = "<group>"; };
+		0AD2CA3213D2A004003EB649 /* FCConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCConsole.m; sourceTree = "<group>"; };
+		0AD2CA3313D2A004003EB649 /* FCStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCStack.h; sourceTree = "<group>"; };
+		0AD2CA3413D2A004003EB649 /* FCStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCStack.m; sourceTree = "<group>"; };
+		0AD2CA3813D2AAA4003EB649 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		0AD2CA3913D2AAA4003EB649 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		84B2B99314F88527009496CE /* FractionCalculatorLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractionCalculatorLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B2B99414F88527009496CE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84B2B99614F88527009496CE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		84B2B99914F88527009496CE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		84B2B99A14F88527009496CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84B2B99B14F88527009496CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84B2B99E14F88527009496CE /* FractionCalculatorLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FractionCalculatorLogicTests-Info.plist"; sourceTree = "<group>"; };
+		84B2B9A014F88527009496CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84B2B9A214F88527009496CE /* FractionCalculatorLogicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractionCalculatorLogicTests.h; sourceTree = "<group>"; };
+		84B2B9A314F88527009496CE /* FractionCalculatorLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractionCalculatorLogicTests.m; sourceTree = "<group>"; };
+		84B2B9A514F88527009496CE /* FractionCalculatorLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FractionCalculatorLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		84B2B9AE14F88533009496CE /* FractionCalculatorApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractionCalculatorApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B2B9B314F88533009496CE /* FractionCalculatorApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FractionCalculatorApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		84B2B9B514F88534009496CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84B2B9B714F88534009496CE /* FractionCalculatorApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractionCalculatorApplicationTests.h; sourceTree = "<group>"; };
+		84B2B9B814F88534009496CE /* FractionCalculatorApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractionCalculatorApplicationTests.m; sourceTree = "<group>"; };
+		84B2B9BA14F88534009496CE /* FractionCalculatorApplicationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FractionCalculatorApplicationTests-Prefix.pch"; sourceTree = "<group>"; };
+		84B777C614D1F97C0004F492 /* FCStackCalculatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCStackCalculatorController.h; sourceTree = "<group>"; };
+		84B777C714D1F97C0004F492 /* FCStackCalculatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCStackCalculatorController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AD2CA1C13D29FEF003EB649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD2CA2413D29FEF003EB649 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2B98F14F88527009496CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2B99514F88527009496CE /* SenTestingKit.framework in Frameworks */,
+				84B2B99714F88527009496CE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2B9AA14F88533009496CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2B9AF14F88533009496CE /* SenTestingKit.framework in Frameworks */,
+				84B2B9B014F88533009496CE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD2CA1413D29FEF003EB649 = {
+			isa = PBXGroup;
+			children = (
+				0AD2CA2513D29FEF003EB649 /* FractionCalculator */,
+				84B2B99C14F88527009496CE /* FractionCalculatorLogicTests */,
+				84B2B9B114F88533009496CE /* FractionCalculatorApplicationTests */,
+				0AD2CA2213D29FEF003EB649 /* Frameworks */,
+				0AD2CA2013D29FEF003EB649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AD2CA2013D29FEF003EB649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AD2CA1F13D29FEF003EB649 /* FractionCalculator */,
+				84B2B99314F88527009496CE /* FractionCalculatorLogicTests.octest */,
+				84B2B9AE14F88533009496CE /* FractionCalculatorApplicationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AD2CA2213D29FEF003EB649 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AD2CA2313D29FEF003EB649 /* Foundation.framework */,
+				84B2B99414F88527009496CE /* SenTestingKit.framework */,
+				84B2B99614F88527009496CE /* Cocoa.framework */,
+				84B2B99814F88527009496CE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AD2CA2513D29FEF003EB649 /* FractionCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				0AD2CA3813D2AAA4003EB649 /* Fraction.h */,
+				0AD2CA3913D2AAA4003EB649 /* Fraction.m */,
+				84B777C614D1F97C0004F492 /* FCStackCalculatorController.h */,
+				84B777C714D1F97C0004F492 /* FCStackCalculatorController.m */,
+				0AD2CA3713D2A00D003EB649 /* Utilities */,
+				0AD2CA2613D29FEF003EB649 /* main.m */,
+				0AD2CA2A13D29FEF003EB649 /* FractionCalculator.1 */,
+				0AD2CA2813D29FEF003EB649 /* Supporting Files */,
+			);
+			path = FractionCalculator;
+			sourceTree = "<group>";
+		};
+		0AD2CA2813D29FEF003EB649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AD2CA2913D29FEF003EB649 /* FractionCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AD2CA3713D2A00D003EB649 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0AD2CA3113D2A004003EB649 /* FCConsole.h */,
+				0AD2CA3213D2A004003EB649 /* FCConsole.m */,
+				0AD2CA3313D2A004003EB649 /* FCStack.h */,
+				0AD2CA3413D2A004003EB649 /* FCStack.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		84B2B99814F88527009496CE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B2B99914F88527009496CE /* AppKit.framework */,
+				84B2B99A14F88527009496CE /* CoreData.framework */,
+				84B2B99B14F88527009496CE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		84B2B99C14F88527009496CE /* FractionCalculatorLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B2B9A214F88527009496CE /* FractionCalculatorLogicTests.h */,
+				84B2B9A314F88527009496CE /* FractionCalculatorLogicTests.m */,
+				84B2B99D14F88527009496CE /* Supporting Files */,
+			);
+			path = FractionCalculatorLogicTests;
+			sourceTree = "<group>";
+		};
+		84B2B99D14F88527009496CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B2B99E14F88527009496CE /* FractionCalculatorLogicTests-Info.plist */,
+				84B2B99F14F88527009496CE /* InfoPlist.strings */,
+				84B2B9A514F88527009496CE /* FractionCalculatorLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B2B9B114F88533009496CE /* FractionCalculatorApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B2B9B714F88534009496CE /* FractionCalculatorApplicationTests.h */,
+				84B2B9B814F88534009496CE /* FractionCalculatorApplicationTests.m */,
+				84B2B9B214F88533009496CE /* Supporting Files */,
+			);
+			path = FractionCalculatorApplicationTests;
+			sourceTree = "<group>";
+		};
+		84B2B9B214F88533009496CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B2B9B314F88533009496CE /* FractionCalculatorApplicationTests-Info.plist */,
+				84B2B9B414F88534009496CE /* InfoPlist.strings */,
+				84B2B9BA14F88534009496CE /* FractionCalculatorApplicationTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AD2CA1E13D29FEF003EB649 /* FractionCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD2CA2E13D29FEF003EB649 /* Build configuration list for PBXNativeTarget "FractionCalculator" */;
+			buildPhases = (
+				0AD2CA1B13D29FEF003EB649 /* Sources */,
+				0AD2CA1C13D29FEF003EB649 /* Frameworks */,
+				0AD2CA1D13D29FEF003EB649 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FractionCalculator;
+			productName = FractionCalculator;
+			productReference = 0AD2CA1F13D29FEF003EB649 /* FractionCalculator */;
+			productType = "com.apple.product-type.tool";
+		};
+		84B2B99214F88527009496CE /* FractionCalculatorLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B2B9A614F88527009496CE /* Build configuration list for PBXNativeTarget "FractionCalculatorLogicTests" */;
+			buildPhases = (
+				84B2B98E14F88527009496CE /* Sources */,
+				84B2B98F14F88527009496CE /* Frameworks */,
+				84B2B99014F88527009496CE /* Resources */,
+				84B2B99114F88527009496CE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FractionCalculatorLogicTests;
+			productName = FractionCalculatorLogicTests;
+			productReference = 84B2B99314F88527009496CE /* FractionCalculatorLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		84B2B9AD14F88533009496CE /* FractionCalculatorApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B2B9BB14F88534009496CE /* Build configuration list for PBXNativeTarget "FractionCalculatorApplicationTests" */;
+			buildPhases = (
+				84B2B9A914F88533009496CE /* Sources */,
+				84B2B9AA14F88533009496CE /* Frameworks */,
+				84B2B9AB14F88533009496CE /* Resources */,
+				84B2B9AC14F88533009496CE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B2B9BF14F885EB009496CE /* PBXTargetDependency */,
+			);
+			name = FractionCalculatorApplicationTests;
+			productName = FractionCalculatorApplicationTests;
+			productReference = 84B2B9AE14F88533009496CE /* FractionCalculatorApplicationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AD2CA1613D29FEF003EB649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0AD2CA1913D29FEF003EB649 /* Build configuration list for PBXProject "FractionCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AD2CA1413D29FEF003EB649;
+			productRefGroup = 0AD2CA2013D29FEF003EB649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AD2CA1E13D29FEF003EB649 /* FractionCalculator */,
+				84B2B99214F88527009496CE /* FractionCalculatorLogicTests */,
+				84B2B9AD14F88533009496CE /* FractionCalculatorApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B2B99014F88527009496CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2B9A114F88527009496CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2B9AB14F88533009496CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2B9B614F88534009496CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84B2B99114F88527009496CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		84B2B9AC14F88533009496CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AD2CA1B13D29FEF003EB649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD2CA2713D29FEF003EB649 /* main.m in Sources */,
+				0AD2CA3513D2A004003EB649 /* FCConsole.m in Sources */,
+				0AD2CA3613D2A004003EB649 /* FCStack.m in Sources */,
+				0AD2CA3A13D2AAA4003EB649 /* Fraction.m in Sources */,
+				84B777C814D1F97C0004F492 /* FCStackCalculatorController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2B98E14F88527009496CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2B9A414F88527009496CE /* FractionCalculatorLogicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2B9A914F88533009496CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2B9B914F88534009496CE /* FractionCalculatorApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B2B9BF14F885EB009496CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AD2CA1E13D29FEF003EB649 /* FractionCalculator */;
+			targetProxy = 84B2B9BE14F885EB009496CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B2B99F14F88527009496CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B2B9A014F88527009496CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84B2B9B414F88534009496CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B2B9B514F88534009496CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AD2CA2C13D29FEF003EB649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0AD2CA2D13D29FEF003EB649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0AD2CA2F13D29FEF003EB649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FractionCalculator/FractionCalculator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AD2CA3013D29FEF003EB649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FractionCalculator/FractionCalculator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84B2B9A714F88527009496CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FractionCalculatorLogicTests/FractionCalculatorLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "FractionCalculatorLogicTests/FractionCalculatorLogicTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84B2B9A814F88527009496CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FractionCalculatorLogicTests/FractionCalculatorLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "FractionCalculatorLogicTests/FractionCalculatorLogicTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		84B2B9BC14F88534009496CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FractionCalculator.app/Contents/MacOS/FractionCalculator";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FractionCalculatorApplicationTests/FractionCalculatorApplicationTests-Prefix.pch";
+				INFOPLIST_FILE = "FractionCalculatorApplicationTests/FractionCalculatorApplicationTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84B2B9BD14F88534009496CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FractionCalculator.app/Contents/MacOS/FractionCalculator";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FractionCalculatorApplicationTests/FractionCalculatorApplicationTests-Prefix.pch";
+				INFOPLIST_FILE = "FractionCalculatorApplicationTests/FractionCalculatorApplicationTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AD2CA1913D29FEF003EB649 /* Build configuration list for PBXProject "FractionCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD2CA2C13D29FEF003EB649 /* Debug */,
+				0AD2CA2D13D29FEF003EB649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD2CA2E13D29FEF003EB649 /* Build configuration list for PBXNativeTarget "FractionCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD2CA2F13D29FEF003EB649 /* Debug */,
+				0AD2CA3013D29FEF003EB649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B2B9A614F88527009496CE /* Build configuration list for PBXNativeTarget "FractionCalculatorLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B2B9A714F88527009496CE /* Debug */,
+				84B2B9A814F88527009496CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84B2B9BB14F88534009496CE /* Build configuration list for PBXNativeTarget "FractionCalculatorApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B2B9BC14F88534009496CE /* Debug */,
+				84B2B9BD14F88534009496CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AD2CA1613D29FEF003EB649 /* Project object */;
+}
