@@ -2,4 +2,4 @@ Run this program in xcode
 
 Use the arrow keys to move and spacebar to destroy the asteroids. Press 's' to use a shield if you need it.
 
-For this project I implemented the drawable subclasses to allocate memory properly and also the dynamics of what happens when these objects collide.
+For this project I implemented the drawable subclasses to allocate memory properly and also the dynamics of how these objects collide.
