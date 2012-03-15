@@ -3,4 +3,4 @@ add the --full option for a full game
 add the --insane option if you want a real challenge
 and add --water for a game with water
 
-I implemented the code for each type of ant in the ants.py file using inheritance and the other the use of other abstract data types.
+I implemented the code for each type of ant in the ants.py file using inheritance and other abstract data types.
