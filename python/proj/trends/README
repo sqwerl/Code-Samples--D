@@ -1,0 +1,9 @@
+This program creates a graphic visualization of twitter data accross the USA.
+
+To run the program type in : python3 trends.py [word that you want to map]
+
+examples:
+python3 trends.py sandwich
+python3 trends.py obama
+python3 trends.py texas
+python3 trends.py "my life"
